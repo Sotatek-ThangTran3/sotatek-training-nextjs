@@ -49,6 +49,12 @@
 .description {
   text-align: center;
 }
+.text {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
 
 .description {
   margin: 4rem 0;
@@ -63,6 +69,17 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin: 10px;
+}
+.btn :hover {
+  opacity: 0.9;
 }
 
 .grid {
@@ -82,7 +99,6 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 }
 
 .card:hover,
